@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.main {
+    width: 100%;
+    background-position: center;
+    background-color: khaki;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar {
+    width: 35%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    margin-top: -4%;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a {
+    font-size: 16px;
+    font-weight: bold; 
+    text-decoration: none;
+    color: black;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+
+ul li a:hover {
+    color: black;
+}
+
+.info{
+ margin-left: 6%;
+ margin-top:  7%;
+}
+
+.info h1{
+ font-size: 50px;
+ color: black;
+}
+
+.info h3{
+ font-size: 15px;
+ letter-spacing: 1.5px;
+ line-height: 20px;
+}
+
+.info h2{
+ font-size: 15px;
+ letter-spacing: 1px;
+ line height: 25px:;
+}
+
+.info img {
+ display: block;
+ margin: 0 auto;
+ margin-bottom: 20px;
+
+.about {
+    text-align: center;
+    padding: 20px;
+}
+.contact p {
+ font-size: 15px;
+}
+
+nav-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.center-content {
+    margin-top: 20vh; 
+}
+
+.center-content a {
+    text-decoration: none; 
+    color: black; 
+    padding: 10px 20px; 
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+.center-content a:hover {
+    background-color: #ddd; 
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 0 1 30%; 
+    margin: 15px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+}
+
+.container img {
+    width: 100%; 
+}
+
+.container h2 {
+    margin: 10px 0;
+}
+
+
+.center-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    width: 100%; /* Make the image fill its container */
+    max-width: 400px; /* Set a maximum width for the image */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 10px; /* Add a border radius for a rounded appearance */
+}
+
+.center-content a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
